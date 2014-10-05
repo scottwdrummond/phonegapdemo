@@ -95,7 +95,18 @@ var app = {
                 $("#taskstab").css("opacity",0).css("left","100%");
                 showMenu();
             }
+            if (currentSection == "menu") {
+                if (confirm("You are about to exit the app?")) {
+                    navigator.app.exitApp();
+                }
+                showMenu();
+            }
+
+
+
             currentSection = "menu";
+
+
 
         } else {
 
@@ -242,7 +253,7 @@ function filtertasks() {
 
     tds.show();
     tds.each(function(index) {
-        var bgc = (index % 2 < 1) ? "#DDDDDD" : "#FFFFFF";
+        var bgc = (index % 2 < 1) ? "#636363" : "#535353";
         $(this).css("backgroundColor", bgc);
     });
 
