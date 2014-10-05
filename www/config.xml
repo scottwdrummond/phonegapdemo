@@ -5,7 +5,7 @@
         Terramar demo OODTP application.
     </description>
     <author email="support@terramatltd.co.uk" href="http://www.terramaltd.co.uk">
-        PhoneGap Team
+        Terramar Support
     </author>
     <preference name="permissions" value="none" />
     <preference name="phonegap-version" value="3.5.0" />

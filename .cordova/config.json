@@ -1,9 +1,9 @@
 {
     "lib": {
         "www": {
-            "id": "com.phonegap.helloworld",
+            "id": "com.terramat.oodtp",
             "version": "3.5.0",
-            "uri": "https://github.com/phonegap/phonegap-app-hello-world/archive/3.5.0.tar.gz"
+            "uri": "https://github.com/scottwdrummond/phonegap-demo/"
         }
     }
 }

@@ -246,7 +246,7 @@ function filtertasks() {
         $(this).css("backgroundColor", bgc);
     });
 
-//                $( "#tasks" ).table( ).data('table').destroy();
-//                $( "#tasks" ).table( ).data('table').init();
+                //$( "table" ).table( ).data('table').destroy();
+                $( "table" ).table( ).init();
 }
 
