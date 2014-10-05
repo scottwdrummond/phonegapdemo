@@ -211,11 +211,13 @@ function tasks2()
 
 
 function showMenu() {
+    window.scrollTo(0, 0);
     $("#menu").show();
     $(".app").show();
 }
 
 function hideMenu() {
+    window.scrollTo(0, 0);
     $("#menu").hide();
     $(".app").hide();
 }
