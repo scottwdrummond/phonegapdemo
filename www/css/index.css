@@ -163,3 +163,9 @@ tr>td:first-child>b.tablesaw-cell-label {
 .tablesaw-cell-label {
     font-width: bold;
 }
+
+
+#CourseFilter {
+    position: relative;
+    z-index: 1000;
+}
